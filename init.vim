@@ -29,6 +29,10 @@ set wildmenu
 set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
+set shada="NONE"
+set viminfo="NONE"
+set noswapfile
+
 " PLUGINS ---------------------------------------------------------------- {{{
 
 " Start NERDTree. If a file is specified, move the cursor to its window.
